@@ -9,9 +9,9 @@ class Program
         string firstName = Console.ReadLine();
        // Prompt user for last name
         Console.Write("What is your last name? ");
-        sring lastName = Console.ReadLine();
+        string lastName = Console.ReadLine();
        
        // Display formatted name
-        Console.WriteLine($"\nYour name is {lastName}, {firsName} {lastName}. ");
+        Console.WriteLine($"\nYour name is {lastName}, {firstName} {lastName}. ");
     }
 }
